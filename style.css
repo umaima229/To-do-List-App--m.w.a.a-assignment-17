@@ -1,4 +1,4 @@
-/* ===== Base Reset ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@
     color: #fff;
   }
   
-  /* Floating gradient blobs */
+
   body::before,
   body::after {
     content: "";
