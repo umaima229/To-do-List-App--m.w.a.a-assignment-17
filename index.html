@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users To-Do List App  </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>My Day</h1>
+      <p id="date"></p>
+      <div class="controls">
+        <button id="allBtn">All</button>
+        <button id="pendingBtn">Pending</button>
+        <button id="completedBtn">Completed</button>
+        <button id="themeToggle"><i class='bx bx-moon'></i></button>
+      </div>
+    </header>
+  
+    <main>
+      <ul id="taskList"></ul>
+    </main>
+  
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <input type="date" id="dueDate">
+      <select id="priority">
+        <option value="low">Low 🔵</option>
+        <option value="medium">Medium 🟠</option>
+        <option value="high">High 🔴</option>
+      </select>
+      <button id="addBtn"><i class='bx bx-plus'></i></button>
+    </div>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
